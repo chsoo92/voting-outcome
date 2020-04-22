@@ -1,4 +1,4 @@
-# voting-outcome
+# testing the limitations of simple DNN
 
 Using simple deep neural networks (DNN), this project aimed to predict voting outcome on the basis of people’s responses on various questions. In doing so, I pitted the neural networks against other neural networks on the Kaggle challenge: https://www.kaggle.com/c/can-we-predict-voting-outcomes#description. Moreover, by feature-engingeering the complex data provided by Kaggle as much as possible, the project tested the performance limitation of the simple DNN. 
 
