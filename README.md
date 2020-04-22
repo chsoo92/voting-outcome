@@ -16,27 +16,25 @@ run ipynb files on Jupyter Notebook.
 packages used: math, numpy, pandas, tensorflow, csv.
 Each model's performance is displayed on "Training set accuracy" "and "Test set accuracy."
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Break down into tests
 
 First_version:
 The first version used year of birth (YOB) without any further preprocessing, because YOB itself is of numeric data type. For the questions that required binary answers, such as “Mac or PC?”, binary answers were represented as 1 and 0. 
 ```
-Give an example
+"Yes" is represented as 1, whereas "No" as 0.
 ```
 
 Second_version:
 Modifying the data representation from the first version, the second version improved the data representation of YOB. YOB values were normalized such that all YOB values were between 0 and 1.
 ```
-YOB value of 1934 was normalized to .34.
+Year of Birth value of 1934 was normalized to .34.
 ```
 
 Third_version:
 Modifying data the representation from the second version, the third version improved the representation of empty answers. 
 
 ```
-the range of possible values was between -1 and 1
+For the non-binary answers, the range of normalized values was between -1 and 1.
 ```
 
 Fourth_version:
