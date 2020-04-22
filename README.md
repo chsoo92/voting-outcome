@@ -64,6 +64,9 @@ Test accuracy of the second version: 56.92% (SD = 1.37)
 Test accuracy of the third version: 63.07% (SD = 1.08)
 Test accuracy of the fourth version: 58.606% (SD = 2.179)
 
+With the DNN model having 3 hidden layers, the project achieved up to 63.07% prediction accuracy: Kaggle rank 158th~188th out of 2875 teams. Moreover, the streamlined training inputs reconstructed from PC could not achieve accuracy beyond 60%, so it seems reasonable that data preprocessing cannot improve the DNN model any further. Thus, about 63% seems to be the limitation of accuracy achievable by a simple DNN model. 94.5% of the teams could not achieve accuracy beyond 63%, and it might be due to the limitation of simple DNN models. Accordingly, rather than DNN with simple structures used in the present project, complex neural networks with multiple different layers (e.g. convolutional, recurrent, etc.) seem to be necessary for achieving high accuracy on the voting data. However, it may be still possible to improve accuracy of the DNN model by preprocessing data. The principal component variance from 107 question conditions showed that about **71 question conditions (mean = 71.78 from 10 results) contributed less than 1% to the dataset.** Thus, excluding not-contributing conditions or adding bias towards contributing conditions may still improve accuracy on the simple DNN model.  
+
+
 ## Authors
 
 * **Suhwan Choi** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
