@@ -30,6 +30,9 @@ Modifying the data representation from the first version, the second version imp
 Year of Birth value of 1934 was normalized to .34.
 ```
 
+![Test Image 2](Picture2.png)
+
+
 Third_version:
 Modifying data the representation from the second version, the third version improved the representation of empty answers. 
 
@@ -38,9 +41,15 @@ For the non-binary answers, the range of normalized values was between -1 and 1.
 ```
 
 Fourth_version:
-Modifying from the third version, the fourth version of preprocessing used the principal components (PC) of the input data to train the model. 
+Modifying from the third version, the fourth version of preprocessing used the principal components (PC) of the input data to train the model. ㄲㄷ
 
+### Results
+For each version, the results show the average test accuarcy from 10 trainings.
 
+Test accuracy of the first version: 51.2% (SD = 2.44)
+Test accuracy of the second version: 56.92% (SD = 1.37)
+Test accuracy of the third version: 63.07% (SD = 1.08)
+Test accuracy of the fourth version: 58.606% (SD = 2.179)
 
 ## Authors
 
