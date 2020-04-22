@@ -16,6 +16,8 @@ run ipynb files on Jupyter Notebook.
 packages used: math, numpy, pandas, tensorflow, csv.
 Each model's performance is displayed on "Training set accuracy" "and "Test set accuracy."
 
+Run PCA.m on Matlab or Octave to reconstruct input.csv.
+
 ### Break down into tests
 
 First_version:
@@ -45,7 +47,14 @@ Some demographic questions required non-binary categorical answers.
 The left table shows categories of income level and their corresponding weights used in the first and second version. The right table shows weights used in the thrid version.
 
 Fourth_version:
-Modifying from the third version, the fourth version of preprocessing used the principal components (PC) of the input data to train the model. ㄲㄷ
+Modifying from the third version, the fourth version of preprocessing used the principal components (PC) of the input data to train the model. 
+
+![Test Image 3](Picture3.png)
+
+The plot on the left shows the PC coefficients (blue lines) for 107 question conditions. The coefficients represent correlation between 107 question conditions. Conditions that are closer together are more correlated with each other. The red dots on the right plot are participants’ data represented in the principal component space.
+
+After the PC were obtained from PCA, 5568 inputs were reconstructed from the PC transformation. Then, the model was trained with the reconstructed inputs.
+
 
 ### Results
 For each version, the results show the average test accuarcy from 10 trainings.
