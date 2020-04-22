@@ -30,15 +30,19 @@ Modifying the data representation from the first version, the second version imp
 Year of Birth value of 1934 was normalized to .34.
 ```
 
-![Test Image 2](Picture2.png)
-
-
 Third_version:
 Modifying data the representation from the second version, the third version improved the representation of empty answers. 
 
 ```
 For the non-binary answers, the range of normalized values was between -1 and 1.
 ```
+
+
+Some demographic questions required non-binary categorical answers.
+
+![Test Image 2](Picture2.png)
+
+The left table shows categories of income level and their corresponding weights used in the first and second version. The right table shows weights used in the thrid version.
 
 Fourth_version:
 Modifying from the third version, the fourth version of preprocessing used the principal components (PC) of the input data to train the model. ㄲㄷ
