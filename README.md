@@ -8,12 +8,13 @@ The present project used simple DNN built from Tensorflow’s “DNNClassifier.�
 
 ## Data
 
-The training and testing data from Kaggle came from Show of Hands, a mobile and web polling platform. For each participant, there were 107 questions to answer, including the political party the participant voted for. Of the 107 questions, 5 were demographic information, and 102 were questionnaire answers. Questions asked are available on "Questoins.pdf"
+The training and testing data from Kaggle came from Show of Hands, a mobile and web polling platform. For each participant, there were 107 questions to answer, including the political party the participant voted for. Of the 107 questions, 5 were demographic information, and 102 were questionnaire answers. Questions on the questionnaire are available on "Questoins.pdf".
 
 ## Getting Started
 
 run ipynb files on Jupyter Notebook.
-
+packages used: math, numpy, pandas, tensorflow, csv.
+Each model's performance is displayed on "Training set accuracy" "and "Test set accuracy."
 
 ### Break down into end to end tests
 
